@@ -361,3 +361,27 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
+
+
+
+#Adaugari
+
+# Dataset-uri ?i fi?iere de procesare text
+*.txt
+!stopwords.txt
+*.xml
+*.XML
+*.rar
+*.zip
+
+# Foldere de date locale
+[Tt]raining/
+[Tt]esting/
+[Rr]euters*/
+
+# Fi?iere de ie?ire generate
+*.out
+output*.txt
+rezultat*.txt
